@@ -1,0 +1,44 @@
+.carrossel {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    width: 70%;
+}
+.carrossel-projetos{
+    padding: 0 5% 5% 5%;
+    display: flex;
+    gap: 30px;
+    width: 70%;
+    overflow-x: scroll;
+}
+.carrossel-projetos-img{
+    width: 500px;
+    height: 300px;
+    border: 1px solid var(--cor-quartenaria);
+    border-radius: 5px;
+}
+
+@media(max-width: 1050px){
+    
+    .carrossel{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .carrossel-projetos-img{
+        width: 260px;
+        height: 180px;
+        border:  3px var(--cor-terciaria);
+    }
+
+    .carrossel-projetos {
+        flex-direction: column;
+        overflow: none ;
+
+    }
+}

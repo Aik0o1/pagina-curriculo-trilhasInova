@@ -1,0 +1,48 @@
+.principalCertificacoes{
+    padding: 15%;
+}
+
+.principalCertificacoes-secao{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.principalCertificacoes-secao-certificados{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.principalCertificacoes-titulo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.principalCertificacoes-secao-certificados-ano{
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.principalCertificacoes-secao-certificados-info{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px dashed var(--cor-quartenaria);
+    justify-content: space-between;
+    width: 50%;
+}
+@media(max-width: 1050px){
+    .principalCertificacoes{
+        padding: 10% 0 350px 0;
+    }
+    .principalCertificacoes-secao-certificados-info{
+        width: 80%;
+    }
+    .principalCertificacoes-secao-certificados-ano{
+        width: 80%;
+    }
+}
